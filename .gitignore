@@ -1,0 +1,74 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Temporary files
+*.tmp
+*.temp
+
+# Binary output directory
+bin/
+
+# Vendor directory if you're using Go modules and don't want to commit vendor/
+vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# VS Code settings
+.vscode/
+.code-workspace
+
+# JetBrains IDE settings
+.idea/
+
+# macOS files
+.DS_Store
+
+# Node modules (if you have frontend code in the same repository)
+node_modules/
+
+# Dependency directories
+vendor/
+
+# Log files
+*.log
+
+# Go modules
+go.mod
+go.sum
+
+# Go binary output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Coverage files
+*.cover
+
+# Output of the go coverage tool
+*.out
+
+# Go plugin files
+*.a
+*.cgo
+
+# Editor backup files
+*~
+
+# Staticcheck output
+staticcheck.conf
+
+# System files
+Thumbs.db
+Desktop.ini
