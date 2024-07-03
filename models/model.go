@@ -14,3 +14,9 @@ type OrderRequest struct {
 	ItemID   int `json:"item_id"`
 	Quantity int `json:"quantity"`
 }
+type Order struct {
+	ID       int    `json:"id"`
+	ItemID   int    `json:"item_id"`
+	Quantity int    `json:"quantity"`
+	Status   string `json:"status"` // eg. waiting, completed
+}
